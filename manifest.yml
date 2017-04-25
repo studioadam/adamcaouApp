@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: adamcaouApp
+  host: adamcaouApp
+  disk_quota: 1024M
+  services:
+  - adamcaouApp-cloudantNoSQLDB
+  - adamcaouApp-iotf-service
